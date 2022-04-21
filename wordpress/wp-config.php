@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '.k%9]>CfNgMeCGg}!~1y;Df AfJ{#^=4U+eE}LCHG+y+B29)!>mHg7^qm`iw_,N!' );
-define( 'SECURE_AUTH_KEY',  's,i#38R~ O@|xSlG9seY!a}]B,IPz ?JChy(llRJO0(v``n^J++K$u.Rn)<P5Soa' );
-define( 'LOGGED_IN_KEY',    'HvotVt<Ac{|e u?2%BHi?O61v# 4s$h.cPCaWfvU%S`jfrMV+^/_^esb1||@mp*o' );
-define( 'NONCE_KEY',        '~lO:/m-* [$kTC}%nm`]dhK8 |fW-x(fjQ#amL)mX@-`_RQqv(w<oGvCG(?w]F]k' );
-define( 'AUTH_SALT',        '_#RO=cuIDijUI93ZJ#r}fmgp) zTuYOLl{zV|hKGQ[Pxv.(ZS5/b>Evn>$-_EPYQ' );
-define( 'SECURE_AUTH_SALT', 'K-?B%h0Anhm#FUU<a@(+k>kPa[T|DCRYmVsfu|+_?J$Y5nXBA `K#@fBM[oh*f k' );
-define( 'LOGGED_IN_SALT',   '(9P*bhOBSSx(-J~Q57g#TPk &$! _dDPH;a.qqW->pzujbsdTM6y4/Q#B~#v&;kr' );
-define( 'NONCE_SALT',       '{8^Y9=t=u[jAN0HetO_ T(D*gIk+~YDtxJ6GljmY&8J#VILX1*fUObTCk]@wst[ ' );
+define( 'AUTH_KEY',         'J-tTBfeA]zAtD$w6kmu4ND8>UQJ d,(|{wp==hh#hb%R_)Ko%%L%>{0%3H/4VV ?' );
+define( 'SECURE_AUTH_KEY',  'ntt<$XKR(%]Im2oPf&t_v#]j8dw?)o*nh=uQ?Z[E=CM>arOOb9&we5/+:Qg,JqiU' );
+define( 'LOGGED_IN_KEY',    'tDyPF/3TJ+MTQ*}!%`3|4|`z&>4CARZz+dI/Rxf2C<y!<fU9%(k v0l#lec&IhJ<' );
+define( 'NONCE_KEY',        '>)T/K%M:c2(1g30$0i Y_J/jO2FtRF`Jq-q!f~^D-bbtqfL~V/t1u;&;wi{0A`#6' );
+define( 'AUTH_SALT',        '3-c<IFo~:+aI;LT9%@y$4^HLcmSik?zL sdXvwZ~BG3VeXQg^K_Nu@K5^u3DT3Sq' );
+define( 'SECURE_AUTH_SALT', 'U:YoJHef2yfn?p!LS0 .G#u,o9h;m`d&Wn@)wK2+OT/X5>.Zr/PT)kL8nMD~@Q$*' );
+define( 'LOGGED_IN_SALT',   '_<y 58+OM~qMH4nz=ZsE]8/-gI/YQg3I6$aJ1D4?J@2QF(S,tv}-:[fa},r>CX@]' );
+define( 'NONCE_SALT',       'k`S@G%QDk|7b%u/1-?Zc[*$=d{{4`*fgx*)k|t#]FS!o;wTP0H3|[|SSg?WgV,`$' );
 
 /**#@-*/
 
@@ -92,14 +92,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
 }
 
-/**importer */
-@ini_set( 'upload_max_filesize' , '128M' );
-@ini_set( 'post_max_size', '128M');
-@ini_set( 'memory_limit', '256M' );
-@ini_set( 'max_execution_time', '300' );
-@ini_set( 'max_input_time', '300' );
-
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-
-
